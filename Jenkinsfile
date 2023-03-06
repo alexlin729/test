@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Build') {
-            
-        }
-    }
     post {
         always {
             echo 'This will always run'
