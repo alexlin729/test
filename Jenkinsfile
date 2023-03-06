@@ -1,13 +1,7 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Build') {
-            steps {
-                sh 'npm install'
-            }
-        }
-    }
+    
     post {
         always {
             echo 'This will always run'
