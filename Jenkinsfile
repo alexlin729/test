@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    stages {
+
+    }
     post {
         always {
             echo 'This will always run'
